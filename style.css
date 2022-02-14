@@ -1,0 +1,60 @@
+:root{
+    --gradient: linear-gradient(to top,rgba(0,0,10,0),rgb(0, 0, 0));
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin:auto;
+    max-width:1440px;
+}
+
+.aviso{
+    color:#fff;
+    height:20px;
+    font-size:20px;
+    background: #000;
+    text-align: center;
+}
+
+.aviso span{
+    color:red;
+}
+
+.presentation{
+    width:100vw;
+    height:100vh;
+    background: var(--gradient), url("./img/cleaning.jpg");
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width:50px;
+}
+
+.ul-container{
+    display:flex;
+    justify-content:space-around
+}
+
+.ul-item{
+    padding:5px;
+    list-style: none;
+}
+
+.ul-item a{
+    color:#fff;
+    text-decoration: none;
+}
